@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>favicon.png">
+
+  
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+  </style>
+  <title>Favour - Personal Website</title>
+</head>
+
+<body style="font-family: 'Playfair Display', serif; background-color:#ffffff; padding: 0 50px">
+  <noscript>
+    <strong>We're sorry but personal doesn't work properly without JavaScript enabled. Please enable it to
+      continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+
+  <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.4.0/lib/darkmode-js.min.js"></script>
+<script>
+var options = {
+
+  label: '🌓', // default: ''
+  autoMatchOsTheme: true, // default: true
+  autoMatchOsTheme: true
+}
+
+const darkmode = new Darkmode(options);
+darkmode.showWidget();
+</script>
+</body>
+
+</html>
