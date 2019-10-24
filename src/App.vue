@@ -1,11 +1,12 @@
 <template>
   <div>
-    <div style=" background-color: rgb(106, 175, 245); height: 4px; width:100%"></div>
+    <div style=" background-color: rgb(106, 175, 245); height: 5px; width:100%"></div>
     <div id="app">
       <br /><br/><br/>
-      <h1 style="font-size: 31px; color: grey">Favour ori.</h1>
+      <h1 style="font-size: 40px; color: grey">Favour ori<span style="color: rgb(106, 175, 245); "><b>.</b></span></h1>
+      <br/><br/>
 
-      <p>I am a <u>Frontend Developer</u> passionate about developing innovative products geared toward making life pretty easy.</p>
+      <p>I am a <u>Software Developer</u> passionate about developing innovative products geared toward making life pretty easy.</p>
       <p>On demand, I write some Backend code (Mostly Node Js).</p>
       <p>
         In my spare time, I teach programming at
@@ -14,11 +15,13 @@
       <br />
       <p>
         <b>Tools: &nbsp;</b>
-        <span style="color:#535c68">Javascript, Node Js, MongoDB, VueJs, HTML5, CSS3</span>
+        <span style="color:#535c68">Javascript, Node Js, Python, MongoDB, VueJs, HTML5, CSS3</span>
       </p>
       <br/>
       <hr style="border-top: 1px solid #ecf0f1"/>
       <br/>
+
+      
       <p>I am always open to opportunies, so feel free to reach out.</p>
       <p>
         <a href="https://github.com/favourori">Github</a> &nbsp;&nbsp;
@@ -33,7 +36,9 @@
 
 export default {
   name: "app",
-  components: {}
+  components: {
+   
+  }
 };
 </script>
 
